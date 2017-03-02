@@ -1,0 +1,14 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+@media screen and (min-width: 600px) {
+
+
+div {
+	width:70%;
+	height: 30%;
+	text-align: center;
+	float: center;
+}
+}
