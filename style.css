@@ -1,8 +1,10 @@
-body {
+
+@media screen and (min-width: 0px) {
+	body {
 	width: 100vw;
 	height: 100vh;
-}
-@media screen and (min-width: 600px) {
+	background-image: url("food.jpg");
+	}
 	div {
 		width:100%;
 		height: 50%;
@@ -11,31 +13,29 @@ body {
 	}
 	nav {
 		width: 100%;
+		display: inline-block;
+		text-align: center;
+		font-size: 25px;
 	}
 	#navbar{
-	background-color: #7c7c7c;
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 5px;
-	display: inline-block;
-	width: 100%;
+		background-color: #7c7c7c;
+		color: #FFFFFF;
+		margin-top: 5px;
+		width: 100%;
+
 	}
 	#navbar ul{
-	list-style-type:
-	margin-top: 0px;
-	padding: 10px;
-	background-color: #7c7c7c;
-	text-align: center;
-	display: inline-block;
+		list-style-type:
+		margin-top: 0px;
+		padding: 10px;
+		background-color: #7c7c7c;
 	}
 	#navbar li{
 		display: block;
 		color: #000;
 		padding: 8px 16px;
-		text-align: center;
-		display: inline-block;
 		float: left;
-
+		border: 2px solid black;
 	}
 	a:link {
 		color: #FFFFFF;
@@ -44,6 +44,12 @@ body {
 		color: #000000;
 	}
 	a:active {
-		color: hotpink;
+		color: #FFFFFF;
+	}
+
+	section {
+		width: 100%
+		margin: auto 10px;
+		background-color: #f2e3bc;
 	}
 }
