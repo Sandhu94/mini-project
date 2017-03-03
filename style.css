@@ -43,8 +43,9 @@ main {
 	width: 100%;
 	margin: auto 10px;
 	background-color: #f2e3bc;
-	border: 2px solid	black;
 	color: #414535;
+	display:inline-block;
+	float: left;
 }
 .blog {
 	display: inline-block;
@@ -70,21 +71,22 @@ body {
 	background-image: url("food.jpg");
 }
 div {
-	width:100%;
+	width:70%;
 	height: 80%;
 	background-size: cover;
 	background-image: url("desktopban.png");
+	margin: 0% 15% 0% 15%;
 }
-
 #navbar{
 	height: auto;
-	width: 100%;
+	width: 70%;
 	border: thin solid #000000;
 	background-color: #000;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	margin: 0% 15% 0% 15%;
 
 }
 #navbar li {
@@ -105,11 +107,12 @@ div {
 	text-decoration: blink;
 }
 main {
-	width: 100%;
+	width: 40%;
 	margin: auto 10px;
 	background-color: #f2e3bc;
 	border: 2px solid	black;
 	color: #414535;
+	margin: 0% 15% 0% 15%;
 }
 .blog {
 	display: inline-block;
@@ -117,14 +120,24 @@ main {
 	font-size: 30px;
 }
 aside {
-	padding: 10px 0px;
-	width: 100%
-	margin: auto auto;
+	height: 40%;
+	width: 25%;
+	margin: 0% 15% 0% 15%;
 	color: #414535;
+	border: 3px solid red;
+	float: right;
+	display: inline-block;
+	overflow-y: scroll;
+}
+.video {
+	background-color: red;
 }
 footer {
-	width: 100%;
-	height: 20%;
+	display: inline-block;
+	width: 70%;
+	height: 10%;
 	background-color: #f2e3bc;
+	margin: 0% 15% 0% 15%;
+	border: 2px solid black;
 }
 }
