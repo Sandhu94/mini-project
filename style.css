@@ -121,7 +121,7 @@ main {
 	font-size: 30px;
 }
 aside {
-	height: 40%;
+	height: 38%;
 	width: 28%;
 	margin: 0% 350px 0px 0px;
 	float: right;
@@ -135,7 +135,7 @@ aside {
 footer {
 	display: inline-block;
 	width: 70%;
-	height: 30%;
+	height: 20%;
 	background-color: #f2e3bc;
 	margin: 0% 15% 0% 15%;
 	border: 2px solid black;
